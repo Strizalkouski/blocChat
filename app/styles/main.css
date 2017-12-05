@@ -1,0 +1,12 @@
+html {
+    background-color: dimgray;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: black;
+    color: antiquewhite;
+    width: 100px;
+    cursor: pointer;
+    
+}
