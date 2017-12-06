@@ -1,7 +1,9 @@
+//general html
 html {
     background-color: dimgray;
 }
 
+//sidebar
 .sidebar {
     position: absolute;
     background-color: black;
@@ -10,3 +12,7 @@ html {
     cursor: pointer;
     
 }
+
+//ui bootstrap
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
