@@ -4,10 +4,17 @@
         var ref = firebase.database().ref().child("Rooms");
         var rooms = $firebaseArray(ref);
         Room.all = rooms;
+        
+        
         Room.add = function(room){
             //Firebase method $add
             rooms.$add(room);
         }
+        
+        Room.delete = function(room){
+            rooms.$delete(room);
+        }
+        
         return Room;
         
     }

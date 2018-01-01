@@ -1,18 +1,82 @@
-//general html
-html {
-    background-color: dimgray;
-}
 
-//sidebar
-.sidebar {
-    position: absolute;
+html {
     background-color: black;
-    color: antiquewhite;
-    width: 100px;
-    cursor: pointer;
+    color: aqua;
+}
+h1, body{
+    max-width: 1700px;
+    background-image: url(http://www.sepeb.com/black-background-image/black-background-image-012.jpg);
+    color: cyan;
+    z-index: 0;
+    padding-left: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    }
+button {
+    background-color: darkgrey;
+}
+button.newRoom {
+    font-size: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 3px;
+    background-color: darkgrey;
+    color: black;
+    z-index: 0;
     
 }
 
-//ui bootstrap
+.roomcontent {
+    position: fixed;
+    float: right;
+    top:90px;
+    right: 0px;
+    background-color: darkcyan;
+    background-image: url(https://i0.wp.com/www.ultracapital.com/wp-content/uploads/2016/02/Black-Lines-Stripes-Wood-Texture-Board-Background-3840x2400.jpg);
+    color: black;
+    height: 100%;
+    width: 90%;
+    
+}
+
+.currentroom {
+    padding-left: 15px;
+    color:Cyan;
+}
+.sidebar {
+    position: fixed;
+    float: left;
+    top: 90px;
+    left: 0px;
+    bottom: 0px;
+    width: 10%;
+    height: 85%;
+    z-index: 1;
+    border: 2px,2px,2px,2px,black;
+    border-radius: 10px;
+    background-color: cyan;
+    color: Cyan;
+    width: 100px;
+    cursor: pointer;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    background-image: url(https://gatorprints.com/wp-content/uploads/2015/08/sidebar-background-3-min.jpg);
+    background-repeat: repeat;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    }
+
+div.p {
+    border-style: solid;
+    border-width: 5px;
+}
+
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+.modal {
+    color:white;
+    background-color: black;
+}
 

@@ -1,0 +1,6 @@
+<form class="setUsername">
+    <h2>Create a Username</h2>
+    <h4 class="prompt">This will be your username for sending messages</h4>
+    <input type="text" name="input" ng-model="cookie.username" placeholder="New Username Here">
+    <button type="button" class="username-submit" ng-disabled="cookie.username ==null" ng-click="cookie.setUserName()">OK</button>
+</form>
