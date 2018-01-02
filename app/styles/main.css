@@ -44,6 +44,13 @@ button.newRoom {
     padding-left: 15px;
     color:Cyan;
 }
+
+.messagewindow {
+    text-align: center;
+    color:lightcyan;
+
+    
+}
 .sidebar {
     position: fixed;
     float: left;

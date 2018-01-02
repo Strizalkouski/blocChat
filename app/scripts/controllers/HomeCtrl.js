@@ -1,5 +1,5 @@
 (function() {
-    function HomeCtrl(Room, Message, $uibModal) {
+    function HomeCtrl(Room, Message, $uibModal, $cookies) {
         this.rooms = Room.all;
         this.messages = Message.all
         this.newMessage = Message.send
@@ -30,5 +30,5 @@
 
     angular
         .module('bloc-chat')
-        .controller('HomeCtrl', ['Room','Message','$uibModal', HomeCtrl]);
+        .controller('HomeCtrl', ['Room','Message','$uibModal','$cookies', HomeCtrl]);
 })();
