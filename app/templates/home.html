@@ -10,9 +10,9 @@
 <div class='roomcontent'>
     <h2 class='currentroom'>{{ home.currentRoom.$value }}</h2>
     <div class="messagewindow" ng-repeat="message in home.messages">
-        <div class="content">content: {{ message.content }}</div>
-        <div class="username">username: {{ message.username}}</div>
-        <div class="sentAt">sent at: {{ message.sentAt }}
+        <div class="username">{{ message.username}}</div>
+        <div class="content">{{ message.content }}</div>
+        <div class="sentAt">{{ message.sentAt }}
     </div>
 </div>
 </html>

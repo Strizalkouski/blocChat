@@ -48,8 +48,15 @@ button.newRoom {
 .messagewindow {
     text-align: center;
     color:lightcyan;
+    background color: gray;
+}
 
-    
+.messagewindow .username {
+    color: forestgreen;
+}
+
+.messagewindow .sentAt {
+    float: right;
 }
 .sidebar {
     position: fixed;
