@@ -9,10 +9,13 @@
 </div>
 <div class='roomcontent'>
     <h2 class='currentroom'>{{ home.currentRoom.$value }}</h2>
-    <div class="messagewindow" ng-repeat="message in home.messages">
+    <div class="messagewindow" ng-repeat="message in home.messages ">
         <div class="username">{{ message.username}}</div>
         <div class="content">{{ message.content }}</div>
-        <div class="sentAt">{{ message.sentAt }}
+        <div class="sentAt">{{ message.sentAt | date : 'shortTime' }}</div>
     </div>
-</div>
+    <div class="newMessage">
+        <input type="text" class="messageInput" id="textfield" placeholder="Type Message Here..." ng-model="home.newMessage.content">
+        <button class="sendMessage" ng-click="home.sendMessage()">Send</button>
+    </div>
 </html>

@@ -27,6 +27,8 @@ button.newRoom {
     
 }
 
+
+
 .roomcontent {
     position: fixed;
     float: right;
@@ -38,6 +40,11 @@ button.newRoom {
     height: 100%;
     width: 90%;
     
+}
+
+.newMessage {
+  float: right;
+  padding-top: 30px;
 }
 
 .currentroom {
@@ -53,10 +60,16 @@ button.newRoom {
 
 .messagewindow .username {
     color: forestgreen;
+    
+}
+
+.content {
+    align-content: center;
 }
 
 .messagewindow .sentAt {
     float: right;
+    margin-right: 20px;
 }
 .sidebar {
     position: fixed;
